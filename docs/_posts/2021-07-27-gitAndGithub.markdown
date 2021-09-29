@@ -54,17 +54,17 @@ categories: jekyll update
 
 
 
-![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.001.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.001.png)
 
 - **Bước 2**: Thực hiện lần lượt các câu lệnh sau:
   - ssh-keygen, nhấn enter cho đến khi hiện ra được như hình dưới là đã tạo được các key (public key & private key) trên máy tính
     - Lưu ý đường dẫn của các file key được tạo (đã được git thông báo trong quá trình cài đặt – Hình dưới)
 
-![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.002.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.002.png)
 
 - eval $(ssh-agent)
 
-![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.003.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.003.png)
 
 
 
@@ -74,21 +74,21 @@ categories: jekyll update
 
 - ssh-add path/to/id\_rsa ( đường dẫn trong máy đến thư mục id\_rsa)
 
-![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.004.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.004.png)
 
 - Mở thư mục id\_rsa.pub ra, copy toàn bộ dữ liệu trong đó và copy lên Github ( Nhấn chuột phải, chọn Open With- chọn Notepad)
   - Truy cập vào Github trên web, mở **Settings**, Chọn **SSH and GPG Keys**.
   - Trong phần **SSH Key** chọn **New SSH Key**. Tại đây nhập Title cho Key và paste dữ liệu ở trong id\_rsa.pub vào phần Key.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.005.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.005.png)
 
 - Sau khi tạo xong
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.006.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.006.png)
 
 - Kiểm tra cấu hình ssh lên trên máy và github: **ssh-T [git@github.com**](mailto:git@github.com)**
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.007.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.007.png)
 
 
 
@@ -97,9 +97,9 @@ categories: jekyll update
 - Tạo 1 repository: Trên giao diện Github, Chọn **New Repository**
 - Lưu ý: Phần tên repository phải là duy nhất, không được trùng. Ở đây mình có demo thử một repo
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.008.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.008.png)
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.009.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.009.png)
 
 
 
@@ -124,22 +124,22 @@ categories: jekyll update
 
 - Đây là giao diện khi bạn tạo xong 1 repo, lưu ý ở phần đường dẫn, chọn SSH nhé
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.010.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.010.png)
 
 6. **Thao tác với Git**
 
 Để bắt đầu làm việc , ta vào đúng mục đó và chọn gitbash 
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.011.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.011.png)
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.012.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.012.png)
 
 Đây sẽ là giao diện để chúng ta viết code để push dữ liệu lên trên github với những câu lệnh và luồng xử lý ở bên dưới
 
 1. **Một số lệnh git cơ bản và luồng xử lý**
    1. **Luồng hoạt động của git cơ bản (Hình dưới)**
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.013.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.013.png)
 
 2. **Các câu lệnh git cơ bản**
 - **Init** : Dùng để khởi tạo 1 git repository 1 project mới hoặc đã có. Đây là lệnh đầu tiên cần dùng trong git khi bắt đầu 1 project mới.
@@ -169,7 +169,7 @@ Demo nho nhỏ về git và github nhé. Sau đây mình sẽ push 1 file demo.h
 
 - Đầu tiên chọn file cần push, sử dụng câu lệnh **git init** để khởi tạo ra file .git
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.014.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.014.png)
 
 - Sau đó chúng ta kiểm tra xem file đang ở trạng thái nào. 
 
@@ -177,22 +177,22 @@ Demo nho nhỏ về git và github nhé. Sau đây mình sẽ push 1 file demo.h
 
 \+ Màu xanh là đã sẵn sàng để commit
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.015.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.015.png)
 
 
 
 
 - Sử dụng câu lệnh **git add .** để add toàn bộ dữ liệu file và chuyển chúng sang trạng thái có thể commit ( lưu ý là có dấu chấm nhaaaaa)
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.016.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.016.png)
 
 - Khi file đã vào trạng thái để sẵn sang commit thì commit nó thôi :v . Sử dụng lệnh **git commit –m “mess”** – trong đó mess là lời nhắn của bạn cho cái lần commit đó để lần sau có xem lại thì hiểu được.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.017.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.017.png)
 
 - Để kiểm tra những file đã commit sử dụng lệnh **git log**
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.018.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.017.png)
 
 - Tuy nhiên ở đây sẽ có vài bạn thắc mắc là sao commit đã thành công rồi mà ở trên mạng vẫn chưa có? Đó là do chúng ta chưa đồng bộ dữ liệu ở trên mạng với ở máy. Để đồng bộ sử dụng câu lệnh: 
 
@@ -202,67 +202,67 @@ git push –u origin master
 
 ( Đây cũng là lần duy nhất được làm việc trực tiếp trên nhánh master vì ở trên web chúng ta vẫn chưa có dữ liệu)
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.019.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.019.png)
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.020.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.020.png)
 
 - Khi load lại trang thì sẽ trở thành như này. Và chúng ta đã push file lên thành công
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.021.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.021.png)
 
 - Nhánh master là nhánh chính, nhánh chứa những file đã hoàn thiện, không được chứa những file code bẩn,….. Vì vậy, khi chúng ta có bất kì 1 sự thay đổi nào về file thì khi push lên phải push ở trên một nhánh khác.
 - Chuyển từ nhánh master qua 1 nhánh mới bằng câu lệnh git checkout –b <tên\_nhánh>
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.022.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.022.png)
 
 - Khi đó trên web chúng ta có thêm 1 nhánh nữa.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.023.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.023.png)
 
 - File demo ban đầu:
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.024.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.024.png)
 
 File demo sau khi sửa:
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.024.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.024.png)
 
 - Khi đó khi ta kiểm tra trạng thái của file thì lại thấy chuyển sang trạng thái chưa sẵn sang để commit. Làm tương tự những bước như trên để đổi về trạng thái sẵn sàng commit và commit chúng lại.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.025.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.025.png)
 
 - Chúng ta sẽ push dữ liệu lên trên nhánh vừa tạo đó
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.026.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.026.png)
 
 Và đây là dữ liệu chúng ta push lên trên nhánh đó.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.027.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.027.png)
 
 - Sau đó sẽ nhấn vào nút Compare & pull request. Nó sẽ hiện ra như hình dưới. Và ở đây chúng ta có thể xem sự thay đổi của file giữa lần đầu commit và lần commit sau đó.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.028.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.028.png)
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.029.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.029.png)
 
 - Copy đường link dẫn đến cho này gửi cho bạn bè, đồng nghiệp,.. để họ vào xem và kiểm tra code nhé.
 - Để thêm ý kiến,…. và merge nó về nhánh master về code vừa được push lên thì nhấn vào Create pull request.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.030.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.030.png)
 
 Tại đây chúng ta có thể cmt những ý kiến của bản thân về dòng code trên. Khi nào cảm thấy ok done thì nhấn vào chữ Merge pull request và nhấn vào Confirm request.
 
 - Khi quay trở lại ta sẽ thấy dòng mess ở phần commit ở nhánh master sẽ giống hệt mess ở nhánh phụ mình vừa làm.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.031.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.031.png)
 
 - Khi vào xem code sẽ là code gần nhất chúng ta thay đổi.
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.032.png)
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.032.png)
 
 - Khác so với lần commit đầu là đã có thêm dòng ***<h1> Goodluck <\h1>***
 
-![](Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.033.png) 
+![](https://raw.githubusercontent.com/phamlinh02/phamlinh02.github.io/master/docs/_posts/Git/Aspose.Words.3ed05f72-565b-4f59-a3e2-bb38f6ce1cef.033.png) 
 
 Trên đây là 1 luồng làm việc cơ bản với Git và Github mà mình biết được, hy vọng nó sẽ là một công cụ tốt để giúp các bạn có thể hoàn thành tốt hành trình học tập của mình tại FPoly và sau này ra trường đi làm nhé . Goodluck 
 
