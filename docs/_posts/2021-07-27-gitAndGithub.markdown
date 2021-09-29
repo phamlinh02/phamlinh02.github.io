@@ -1,5 +1,5 @@
 ---
-layout: Tìm hiểu về Git và Github
+layout: post
 title:  "Tìm hiểu về Git và Github"
 date:   2021-07-27 23:34:18 +0700
 categories: jekyll update
